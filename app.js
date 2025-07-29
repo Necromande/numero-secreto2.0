@@ -10,7 +10,7 @@ function pegartag(tag,texto){
 }
 
 function exibirMensagemInicial(){
-    pegartag('h1','Jogo do número secreto');
+    pegartag('h1','Jogo do número Secreto:🔢');
     pegartag('p', 'Escolha um número de 1 a 100');
 }
 
