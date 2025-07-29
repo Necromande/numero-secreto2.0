@@ -1,5 +1,5 @@
 let listaSorte = [];
-let limite = 100;
+let limite = 1000;
 let numero = gerarNumeroAleatorio();
 
 function pegartag(tag,texto){
@@ -11,7 +11,7 @@ function pegartag(tag,texto){
 
 function exibirMensagemInicial(){
     pegartag('h1','Jogo do número secreto');
-    pegartag('p', 'Escolha um número de 1 a 100');
+    pegartag('p', 'Escolha um número de 1 a 1000');
 }
 
 exibirMensagemInicial();
