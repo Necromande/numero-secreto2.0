@@ -1,5 +1,5 @@
 let listaSorte = [];
-let limite = 100;
+let limite = 10;
 let numero = gerarNumeroAleatorio();
 
 function pegartag(tag,texto){
